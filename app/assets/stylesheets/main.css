@@ -4,7 +4,7 @@ body {
 
 /*HOME BACKGROUND IMAGE*/
 #home {
-  background-image: url('woodglasses.png');
+  background-image: url('../assets/woodglasses.png');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
