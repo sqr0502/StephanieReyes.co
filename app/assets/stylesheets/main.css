@@ -3,17 +3,17 @@ body {
 }
 
 /*HOME BACKGROUND IMAGE*/
-/*#home {
+div#home {
   background-image: url('woodglasses.png');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 20%;
-  /*opacity: 0.88;
-}*/
+  /*opacity: 0.88;*/
+}
 
 /*NAME INTRO*/
-#home, h1 {
+div#home, h1 {
   font-family: 'Amatic SC', sans-serif;
   padding-top: 13%;
   padding-left: 5%;
