@@ -1,0 +1,235 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/*HOME BACKGROUND IMAGE*/
+#home {
+  background-image: url('woodglasses.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20%;
+  /*opacity: 0.88;*/
+}
+
+/*NAME INTRO*/
+#home, h1 {
+  font-family: 'Amatic SC', sans-serif;
+  padding-top: 13%;
+  padding-left: 5%;
+  padding-right: 32%;
+  text-align: left;
+  color: #F2F7F2;
+  font-size: 85px;
+}
+
+/*HOME INTRO TEXT BORDER */
+.intro-name {
+  border-color: black;
+  border-bottom: solid;
+  padding-right: 13%;
+}
+
+/*INTRODUCTION TEXT BELOW INTRO NAME*/
+.introduction {
+  font-size: 55px;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: black;
+  background-color: white;
+}
+
+/*NAVBAR BACKGROUND*/
+.navbar {
+  background-color: black;
+  /*opacity: 0.5;*/
+}
+
+/*NAVBAR LOGO*/
+.navbar-brand {
+  font-size: 26px;
+}
+
+/*NAVBAR LINKS*/
+.navbar a{
+  color:white !important;
+
+}
+
+.navbar-right {
+  color: #FFFDFD;
+  font-size: 18px;
+}
+
+/*CUSTOM NAVBAR*/
+.custom-nav-top {
+  background-color: transparent;
+}
+
+.custom-nav-top .navbar-brand {
+  display: none;
+}
+
+/*DISPLAY FLOW FOR CONTAINERSs*/
+.flex-container {
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom:  3%;
+  justify-content: space-between;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*ALL HEADERS*/
+.headers {
+  /*padding-top: 2%;*/
+  /*padding-bottom: 1%;*/
+  text-align: center;
+  font-size: 40px;
+}
+
+/*SKILLS ICON CENTERED*/
+.icons.skills-icon {
+  width: 128px;
+}
+
+/*ICONS DISPLAY FLOW*/
+#icons {
+  justify-content: center;
+}
+
+/*SKILLS BACKGROUND*/
+#skills {
+  background-color: #FFC15E;
+  margin: 0;
+}
+
+#recent-header {
+      margin: 0;
+      padding: 5% 0 1% 0;
+}
+
+
+/*RECENT WORK IMAGES*/
+.portfolio-item {
+  flex: 1 0 30%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 1.3rem;
+}
+
+img {
+  width: 60%;
+  height: 80%;
+}
+
+/*RECENT WORK BACKGROUND*/
+#recent-work{
+  background-color: #FFFFFF;
+  /*background-color: #EDF7F6;*/
+  margin: 0;
+  /*padding-top: 3%*/
+  padding-top: 0;
+}
+
+hr {
+  width: 45%;
+}
+/*ABOUT ME BACKGROUND*/
+#about-me {
+  /*background-color: #FFFFFF;*/
+  background-color: #FED766;
+}
+
+/*ABOUT ME DISPLAY FLOW*/
+.about-me {
+  flex: 1 0 30%;
+  text-align: center;
+  margin: auto;
+  font-size: 23px;
+}
+
+
+/*ABOUT ME PIC*/
+#profile-img {
+  width: 50%;
+  height: 50%;
+  margin: 0 0 0 7%;
+  /*padding: 2%;*/
+}
+
+/*ABOUT ME PARAGRAPH*/
+.about-para {
+  padding-right: 20%;
+  margin: 0 7%;
+}
+
+#about {
+  margin: 0;
+  padding: 4% 0 0 0;
+}
+
+
+#footer {
+  background-color: #FDF0D5;
+  margin: -2%;
+  padding: 2% 0 2% 0;
+
+}
+
+#contact {
+  /*padding: 3%;*/
+}
+/*___garbage____*/
+/*
+.main-headers {
+  color: black;
+  background-color: white;
+}*/
+
+/*recent work boxes*/
+/*#recent-work li{
+  list-style-type: none;
+  width: 30%;
+  display: block;
+  float: left;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+#recent-work li a{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+#recent-work li img{
+    width: 100%;
+    display: block;
+    margin-bottom: 1.2rem;
+    width: 400px;
+}
+#recent-work {*/
+  /*padding-left: 12%;*/
+/*}*/
+
+/*.box {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400px;
+  background: rgb(0, 0, 0);
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+}
+
+hover recent work*/
+/*.box:hover {
+  opacity: 0.9;
+  color: white;
+}
