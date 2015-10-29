@@ -3,7 +3,7 @@ body {
 }
 
 /*HOME BACKGROUND IMAGE*/
-div#home {
+#home {
   background-image: url('woodglasses.png');
   background-position: top;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@ div#home {
 }
 
 /*NAME INTRO*/
-div#home, h1 {
+#home, h1 {
   font-family: 'Amatic SC', sans-serif;
   padding-top: 13%;
   padding-left: 5%;
