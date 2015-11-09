@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).scroll(function() {
+   if($(window).scrollTop() > 720) {
+    $("#nav").removeClass("navbar-fixed-top");
+    $("#nav").addClass("custom-nav-top navbar-fixed-bottom");
+    $('#nav .navbar-brand').addClass("animated");
+  }else{
+    $("#nav").removeClass("custom-nav-top navbar-fixed-bottom");
+    $("#nav").addClass("navbar-fixed-top")
+  }
+});
