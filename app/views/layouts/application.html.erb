@@ -14,16 +14,18 @@
     <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="navbar navbar-fixed-top custom-nav custom-nav-top">
+  <div class="navbar navbar-fixed-top custom-nav" id="nav">
     <div class="container">
       <a href="/" class="navbar-brand">Stephanie Reyes</a>
       <!--navbar collapse on smaller broswer windows-->
       <!-- <button class= "navbar-toggle"type="button" name="button"></button> -->
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#skills">Work</a></li>
+          <li><a href="#recent-work">Work</a></li>
           <li><a href="#about">About</a></li>
-          <li><%= link_to 'Blog', controller: 'articles' %></li>
+          <li><a href="#">Blog</a></li>
+          <!-- TODO: implement blog routes and logic -->
+          <!-- <li><%= link_to 'Blog', controller: 'articles' %></li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
