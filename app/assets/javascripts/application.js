@@ -16,11 +16,13 @@
 //= require_tree .
 $(document).scroll(function() {
    if($(window).scrollTop() > 720) {
-    $("#nav").removeClass("navbar-fixed-top");
-    $("#nav").addClass("custom-nav-top navbar-fixed-bottom");
+    // $("#nav").removeClass("navbar-fixed-top");
+    $("#nav").addClass("custom-nav-top");
     $('#nav .navbar-brand').addClass("animated");
+    $("#contact-icons .icons").addClass("display")
   }else{
-    $("#nav").removeClass("custom-nav-top navbar-fixed-bottom");
+    $("#nav").removeClass("custom-nav-top");
     $("#nav").addClass("navbar-fixed-top")
+    $("#contact-icons .icons").removeClass("display");
   }
 });
